@@ -18,7 +18,8 @@ Either export these, or edit ```env.sh``` and source it.
 Dependencies
 ------------
 
-None.
+* CDN: ```rhel-7-server-rpms```
+* rhtps.yum role with above repo
 
 Example Playbook
 ----------------
