@@ -6,7 +6,7 @@ This role installs and configures TigerVNC on your RHEL or CentOS system.
 Requirements
 ------------
 
-None, however this is typically used in conjunction with the (rhtps.aws)[https://github.com/rhtps/ansible-aws] role.
+None, however this is typically used in conjunction with the [rhtps.aws](https://github.com/rhtps/ansible-aws) role.
 
 Role Variables
 --------------
