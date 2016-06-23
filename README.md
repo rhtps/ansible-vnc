@@ -3,6 +3,11 @@ rhtps.vnc
 
 This role installs and configures TigerVNC on your RHEL or CentOS system.
 
+rhtps philosophy
+----------------
+
+The rhtps Ansible roles were designed for a few specific use cases. Details [here](https://github.com/rhtps/philosophy).
+
 Requirements
 ------------
 
