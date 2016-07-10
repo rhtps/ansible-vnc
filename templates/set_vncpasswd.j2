@@ -1,7 +1,7 @@
 #!/bin/sh
 
-username={{ vnc_username }}
-password={{ vnc_password }}
+username={{ vncuser }}
+password={{ vncpass }}
 
 mkdir /home/$username/.vnc
 echo ${password} | vncpasswd -f > /home/${username}/.vnc/passwd
