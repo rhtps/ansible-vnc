@@ -30,6 +30,10 @@
   template:
     src: set_vncpasswd.j2
     dest: /tmp/set_vncpasswd.sh
+    owner: root
+    mode: 0700
+
+# TODO left off here, template not picking up group_vars.
 
 - name: Execute set_vncpasswd.sh
   command: /tmp/set_vncpasswd.sh
